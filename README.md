@@ -25,15 +25,24 @@ Things you may want to cover:
 
 URL: https://evening-sea-07356.herokuapp.com/
 
-GET    /posts(.:format)                                                                                  posts#index  
+Format: JSON
 
-POST   /posts(.:format)                                                                                  posts#create 
+EJ Body:
+{
+    "title": "titulo perzonalizado",
+    "content": "contenido perzonalizado",
+    "author": "autor personalizado"
+}
 
-GET    /posts/:id(.:format)                                                                              posts#show   
+GET    /posts
 
-PATCH  /posts/:id(.:format)                                                                              posts#update 
+POST   /posts
 
-PUT    /posts/:id(.:format)                                                                              posts#update 
+GET    /posts/:id
 
-DELETE /posts/:id(.:format)                                                                              posts#destroy
+PATCH  /posts/:id
+
+PUT    /posts/:id
+
+DELETE /posts/:id
 
