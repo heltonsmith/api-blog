@@ -34,6 +34,8 @@ EJ Body:
     "author": "autor personalizado"
 }
 
+Endpoints: 
+
 GET    /posts
 
 POST   /posts
