@@ -21,4 +21,13 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ...
+* Endpoints API REST
+
+URL: https://evening-sea-07356.herokuapp.com/
+
+GET    /posts(.:format)                                                                                  posts#index  
+POST   /posts(.:format)                                                                                  posts#create 
+GET    /posts/:id(.:format)                                                                              posts#show   
+PATCH  /posts/:id(.:format)                                                                              posts#update 
+PUT    /posts/:id(.:format)                                                                              posts#update 
+DELETE /posts/:id(.:format)                                                                              posts#destroy
